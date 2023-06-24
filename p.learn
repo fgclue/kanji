@@ -1,0 +1,8 @@
+#learn
+
+menu = menu
+menu.add("File", file)
+fileb = menu.getbar(file)
+fileb.addSubMenu("Import .kanji file", keybind="ctrl+shift+i")
+fileb.addSubMenu("Settings", keybind="ctrl+shift+s")
+fileb.addSubMenu("Exit", keybind="alt+f4")
